@@ -1,0 +1,854 @@
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video {
+  border:0;
+  font-size:100%;
+  font:inherit;
+  vertical-align:baseline;
+  margin:0;
+  padding:0;
+}
+
+body {
+  line-height:1;
+}
+
+ol,ul {
+  list-style:none;
+}
+
+blockquote,q {
+  quotes:none;
+}
+
+blockquote:before,blockquote:after,q:before,q:after {
+  content:none;
+}
+
+table {
+  border-collapse:collapse;
+  border-spacing:0;
+}
+
+.clearfix:after {
+  display:block;
+  clear:both;
+  content:"";
+}
+
+.center {
+  text-align:center;
+}
+
+.bold {
+  font-weight:bold;
+}
+
+.white {
+  color:#FFF;
+}
+
+.link {
+  color:#000;
+  text-decoration:none;
+}
+
+.color1 {
+  color:#00008B;
+}
+
+.main {
+  background-color:#EDEDED;
+}
+
+.header_inner,.main_inner,.footer_inner,.banner_inner,.bread_inner {
+  width:1280px;
+  margin:0 auto;
+}
+
+.main_inner {
+  background-color:#EDEDED;
+  padding-bottom:16px;
+  padding-top:32px;
+  border-bottom:1px solid lightgray;
+}
+
+.banner_inner {
+  background-image:url("https://cdn.pixabay.com/photo/2016/06/20/10/13/lovers-1468490_960_720.jpg");
+  background-size:cover;
+  padding-top:170px;
+  padding-bottom:110px;
+}
+
+.banner h3 {
+  font-size:44px;
+}
+
+.banner{
+  background-color: black;
+}
+
+.banner_text {
+  margin-top:20px;
+  font-size:18px;
+  line-height:35px;
+}
+
+.page_title {
+  background-color:gray;
+  margin-bottom:30px;
+  padding:10px 20px;
+}
+
+.header p {
+  padding:20px 32px;
+}
+
+.search {
+  width:80%;
+  background-color:rgba(0,0,0,0.4);
+  margin:40px auto 0;
+  padding:1%;
+}
+
+.search_box {
+  height:54px;
+  width:88%;
+  float:left;
+}
+
+.search_orange_btn {
+  background-color:orange;
+  float:left;
+  padding:22px 40px;
+  text-align: center;
+}
+
+.suggest{
+  width:909.117px;
+  background-color: white;
+color:gray !important;
+text-align: left;
+}
+
+.suggest p{
+  padding:15px 30px;
+}
+
+.area_suggest, .pref_suggest{
+  float:left;
+}
+
+.pref_suggest{
+  border-right: 1px solid lightgray;
+}
+
+.area_suggest{
+margin-right: 50px;
+}
+
+.copyright {
+  color:gray;
+  margin-bottom:20px;
+  font-size:14px;
+}
+
+.footer_inner {
+  padding-top:30px;
+}
+
+table.type04 {
+  border-collapse:separate;
+  border-spacing:1px;
+  text-align:left;
+  line-height:1.5;
+  margin-bottom:30px;
+}
+
+table.type04 th {
+  width:150px;
+  vertical-align:top;
+  padding:15px;
+}
+
+table.type04 td {
+  width:1130px;
+  vertical-align:top;
+  margin-left:10px;
+  padding:15px;
+}
+
+table.type04 a {
+  margin-left:5px;
+  color:#000;
+  text-decoration:none;
+}
+
+table.type03 {
+  border-collapse:collapse;
+  text-align:left;
+  line-height:1.5;
+  border-top:1px solid #ccc;
+  border-left:3px solid #369;
+  background-color:#FFF;
+  margin:10px auto;
+}
+
+table.type03 th {
+  width:150px;
+  font-weight:bold;
+  vertical-align:top;
+  color:#153d73;
+  border-right:1px solid #ccc;
+  border-bottom:1px solid #ccc;
+  padding:10px;
+}
+
+table.type03 td {
+  width:500px;
+  vertical-align:top;
+  border-right:1px solid #ccc;
+  border-bottom:1px solid #ccc;
+  padding:10px;
+}
+
+form.contact {
+  width:700px;
+  font-size:80%;
+  margin:0 auto;
+}
+
+form.contact p {
+  line-height:130%;
+}
+
+form.contact p.attention img {
+  vertical-align:middle;
+}
+
+form.contact div.fields {
+  margin-bottom:20px;
+  background-color:#f9f9f9;
+  border:1px silver solid;
+  padding:2px;
+}
+
+form.contact table {
+  width:100%;
+  border:1px solid;
+  border-color:silver #999 #999 silver;
+}
+
+form.contact caption {
+  margin-bottom:2px;
+  background:#f9f9f9 url(caption_back1.gif) repeat-x;
+  border:1px solid;
+  text-align:left;
+  color:gray;
+  border-color:silver #999 #999 silver;
+  padding:10px 8px;
+}
+
+form.contact th {
+  width:140px;
+  background-color:#f5f5f5;
+  border-bottom:1px silver dotted;
+  text-align:left;
+  line-height:130%;
+  padding:10px 8px;
+}
+
+form.contact th span.supplement {
+  font-weight:normal;
+}
+
+form.contact td {
+  background-color:#fff;
+  border-bottom:1px silver dotted;
+  padding:10px 5px 7px;
+}
+
+form.contact td span.supplement {
+  color:gray;
+}
+
+form.contact td.required {
+  width:26px;
+  background-color:#c4e6fa;
+  padding:10px 3px;
+}
+
+form.contact input,form.contact select,form.contact textarea {
+  margin-bottom:2px;
+}
+
+#message {
+  width:420px;
+  height:10em;
+}
+
+form.contact p.button {
+  margin:0;
+}
+
+.main_contents {
+  margin-top:30px;
+}
+
+.main_left {
+  width:640px;
+  float:left;
+  padding-top: 5px;
+}
+
+.main_right {
+  width:560px;
+  float:left;
+  padding-left:48px;
+  margin-right: 32px
+}
+
+.main_right img{
+  margin-top: 1%;
+}
+
+.image2 {
+  position:relative;
+  top:-90px;
+  left:200px;
+}
+
+.image1 {
+  padding-left:32px;
+}
+
+.main_contents_title {
+  font-size:32px;
+  margin-top:50px;
+  margin-bottom:50px;
+}
+
+.point {
+  font-size:24px;
+  margin-top:56px;
+}
+
+.point_txt {
+  margin-top:16px;
+  line-height: 24px;
+}
+
+.sidebar {
+  width:232px;
+  margin-left:32px;
+  margin-right:24px;
+}
+
+.sidebar a{
+  text-decoration: none;
+}
+
+.main_result {
+  width:960px;
+  margin-right:32px;
+}
+
+.segment_title {
+  font-size:16px;
+  margin:32px 0 16px;
+}
+
+.sidebar li {
+  margin-bottom:16px;
+  margin-left:16px;
+  color:gray;
+}
+
+.edit {
+  background-color:#F0FFF0;
+  padding:20px;
+}
+
+.edit li {
+  float:left;
+  margin-right:50px;
+  font-size:16px;
+}
+
+.result_card {
+  width:960px;
+  margin-top:24px;
+  border:0.5px solid lightgray;
+  background-color:#FFF;
+}
+
+.result_card_left {
+  width:260px;
+}
+
+.popular {
+  text-align:right;
+  width:690px;
+  color:red;
+  padding:5px;
+}
+
+.card_middle_left {
+  margin-top:15px;
+  padding-left:10px;
+  width:340px;
+  float:left;
+}
+
+.card_middle_right {
+  padding-right:32px;
+  width:318px;
+  float:left;
+  margin-top:48px;
+}
+
+.marriage_rate {
+  font-size:48px;
+  text-align:right;
+}
+
+.area {
+  margin-top:15px;
+}
+
+.rate_details {
+  text-align:right;
+}
+
+.result_segment {
+  font-size:22px;
+  padding:19px 0;
+}
+
+.agency_search {
+  font-size:16px;
+  margin-top:24px;
+  margin-bottom:8px;
+}
+
+.bread p {
+  padding:8px 32px;
+}
+
+.area_detail {
+  margin-top:10px;
+}
+
+.top_left,.top_right {
+  width:50%;
+  float:left;
+}
+
+.top {
+  margin-bottom:20px;
+  padding:0 32px;
+}
+
+.right {
+  float:right;
+}
+
+.back {
+  width:1176px;
+  background-color:#00008B;
+  margin:16px 32px 0;
+  padding:10px 20px;
+}
+
+.slide_img {
+  margin:16px 32px;
+}
+
+.slide_img_left {
+  width:60%;
+}
+
+.slide_img_left img {
+  display:block;
+  margin:0 auto;
+}
+
+.slide_img_right {
+  width:40%;
+}
+
+.blue_text {
+  font-weight:bold;
+  font-size:20px;
+  margin-top:20px;
+}
+
+.gray_text {
+  font-size:16px;
+  margin:10px 0 10px 10px;
+}
+
+.agency_plan {
+  width:200px;
+  float:left;
+  font-weight:bold;
+  padding:10px;
+}
+
+.agency_price {
+  width:200px;
+  float:left;
+  padding:10px;
+}
+
+.agency_details {
+  width:754px;
+  float:left;
+  font-size:14px;
+  padding:10px;
+}
+
+.agency_detail {
+  border-left:1px solid #000;
+  border-right:1px solid #000;
+  margin:0 32px;
+}
+
+.last {
+  border-bottom:1px solid #000;
+}
+
+.agency_detail p {
+  padding-bottom:10px;
+}
+
+.pop{
+  background-color:orange;
+  float:right;
+  padding:10px 20px;
+}
+
+.frame {
+  padding:15px;
+}
+
+.frame p {
+  font-size:12px;
+}
+
+.price_detail {
+  margin-bottom:10px;
+}
+
+.agency_character {
+  float:left;
+  width:974px;
+  padding:10px;
+}
+
+.map iframe {
+  padding:10px;
+}
+
+.map {
+  float:left;
+  width:620px;
+}
+
+.map_detail {
+  float:left;
+  width:574px;
+  padding:10px;
+}
+
+article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section,.result_card img {
+  display:block;
+}
+
+body,.header,.main,.footer,.banner,.bread {
+  width:100%;
+}
+
+.header_inner,.line {
+  border-bottom:1px solid lightgray;
+}
+
+.point_title,.agency_name {
+  font-size:24px;
+}
+
+.sidebar,.main_result,.result_card_left,.result_card_right,.slide_img_right,.slide_img_left {
+  float:left;
+}
+
+.result_card_right,.card_middle {
+  width:700px;
+}
+
+.popupModal1 > input { /* ラジオボックス非表示 */
+  display: none;
+}
+.popupModal1 > input:nth-child(1) + label {
+  cursor: pointer;
+}
+.modalPopup2 { /* 初期設定 ポップアップ非表示 */
+  display: none;
+}
+
+.popupModal1 > input:nth-child(1):checked + label + input:nth-child(3) + label + input:nth-child(5) + label + .modalPopup2 {/* ラジオ１ チェックでポップアップ表示 */
+  display: block;
+  z-index: 998;
+  position: fixed;
+  width: 90%;
+  height: 80%;
+  border-radius: 20px;
+  left: 50%;
+  top: 50%;
+  margin-top: 30px;
+  -webkit-transform: translate(-50%,-50%);
+  -ms-transform: translate(-50%,-50%);
+  transform: translate(-50%,-50%);
+  background: #fff;
+  padding: 10px 20px;
+  overflow: hidden;
+}
+@media (min-width: 768px) {/* PCのときはページの真ん中の600x600領域 */
+  .popupModal1 > input:nth-child(1):checked + label + input:nth-child(3) + label + input:nth-child(5) + label + .modalPopup2{
+    width: 600px;
+    height: 600px;
+    padding: 30px;
+
+  }
+  .popupModal1 > input:nth-child(1):checked + label + input:nth-child(3) + label + input:nth-child(5) + label {
+    left: 50% !important;
+    top: 50% !important;
+    margin-left: 270px !important;
+    margin-top: -310px !important;
+  }
+}
+
+.popupModal1 > input:nth-child(1):checked + label + input:nth-child(3) + label + input:nth-child(5) + label + .modalPopup2 > div {/* */
+  overflow:auto;
+  -webkit-overflow-scrolling:touch;
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+}
+.popupModal1 > input:nth-child(1):checked + label + input:nth-child(3) + label + input:nth-child(5) + label + .modalPopup2 > div > iframe {
+  width: 100%;
+  height:100%;
+  border:none;
+  display:block;
+}
+
+.popupModal1 > input:nth-child(1):checked + label + input:nth-child(3) + label + input:nth-child(5) + label + .modalPopup2 > div > img {/* ポップアップの中の要素 */
+  max-width: 100%;
+}
+.popupModal1 > input:nth-child(1) + label ~ label {
+  display: none;/* ラジオ１ 以外のラベルを初期は非表示 */
+
+}
+.popupModal1 > input:nth-child(1):checked + label + input:nth-child(3) + label {
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.70);
+  display: block;
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: 997;
+  text-indent: -999999px;
+  overflow: hidden;
+}
+.popupModal1 > input:nth-child(1):checked + label + input:nth-child(3) + label + input:nth-child(5) + label {
+  background: rgba(255, 255, 255, 0.5);
+  display: inline-block;
+  position: fixed;
+  left: 10px;
+  bottom: 20px;
+  z-index: 999;
+  width: 44pt;
+  height: 44pt;
+  font-size: 40px;
+  border-radius: 50%;
+  line-height: 44pt;
+  text-align: center;
+  box-shadow: 2px 2px 10px 0px rgba(0, 0, 0, 0.2);
+}
+
+.popupModal1 > input:nth-child(1) + label + input:nth-child(3):checked + label + input:nth-child(5) + label + .modalPopup2,
+.popupModal1 > input:nth-child(1) + label + input:nth-child(3) + label + input:nth-child(5):checked + label + .modalPopup2 { /* ラジオ２と３ どっちかチェックでポップアップ非表示 */
+  display: none;
+}
+
+
+.modalPopup2 {
+  animation: fadeIn 1s ease 0s 1 normal;
+  -webkit-animation: fadeIn 1s ease 0s 1 normal;
+}
+
+@keyframes fadeIn {
+  0% {opacity: 0}
+  100% {opacity: 1}
+}
+
+@-webkit-keyframes fadeIn {
+  0% {opacity: 0}
+  100% {opacity: 1}
+}
+
+.popupModal1 .modalTitle {
+  padding-bottom: .5em;
+  margin: .5em 0;
+  border-bottom:
+  1px solid #ccc;
+  font-weight: bold;
+}
+.popupModal1 .modalMain {
+  color:#222;
+  text-align: left;
+  font-size: 14px;
+  line-height: 1.8em;
+}
+
+form#frm_a {
+  margin:10px 0; padding:0;
+}
+form#frm_a fieldset {
+  margin:0; padding:10px;
+  border:1px solid #6bba70;
+  background-color:inherit;
+  color:#fff;
+  font-size:12px;
+}
+form#frm_a legend {
+  margin:0 0 10px 0; padding:2px 5px;
+  color:#6bba70;
+  font-weight:bold;
+}
+form#frm_a p {
+  margin:0; padding:0 0 10px 0;
+  color:#666;
+}
+form#frm_a input.txt {
+  border:1px solid #cdeb8b;;
+  font-weight:bold;
+  padding:1px 3px;
+}
+form#frm_a input.submit {
+  border:3px double #cdeb8b;
+  background-color:#fff;
+  color:#6bba70;
+  font-weight:bold;
+}
+
+map{
+  width:656px;
+  margin-left:24px;
+  height:487px;
+  margin-top:20px;
+  border:1px solid #dfdfdf;
+
+}
+
+.pref{
+  width:646px;
+  margin:5px 5px 0px 5px;
+  padding-bottom:5px;
+  float:left;
+  border-bottom:1px solid #dfdfdf;
+}
+
+.pref_last{
+  width:646px;
+  margin:5px 5px 0px 5px;
+  padding-bottom:5px;
+  float:left;
+}
+
+.pref_left{
+  width:130px;
+  height:50px;
+  float: left;
+  text-align: center;
+}
+
+.blue{
+  border-left:5px solid #AFE1E7;
+  background-color: #E2F2FA;
+}
+
+.peach{
+  border-left:5px solid #F5ABCB;
+  background-color: #F5E4EB;
+}
+
+
+.green{
+  border-left:5px solid #76C6A4;
+  background-color: #CFEEE1;
+}
+
+.orange{
+  border-left:5px solid #FFCC68;
+  background-color: #FFF6E4;
+}
+
+.purple{
+  border-left:5px solid #CEBFDD;
+  background-color: #E7E0EE;
+}
+
+.yellow{
+  border-left:5px solid #E9D95B;
+  background-color: #F7F2CA;
+}
+
+.red{
+  border-left:5px solid #F38F9B;
+  background-color: #FFF1F3;
+}
+
+.darkblue{
+  border-left:5px solid #79ABD0;
+  background-color: #EAF4FC;
+}
+
+.pref_left_title{
+  padding-top:17px;
+}
+
+.pref_right{
+  width:450px;
+  height:50px;
+  float: left;
+}
+
+.pref_right li{
+  width:100px;
+  height:20px;
+  float:left;
+  padding-left:10px;
+  text-align: center;
+  margin-top:5px;
+}
+
+.agency{
+  margin-top:30px;
+  margin-bottom: 30px;
+}
+
+.agency li{
+  margin-top: 15px;
+  margin-left: 25px;
+}
+
+.line_banner{
+  margin: 0px 10px;
+}
+
+.line_contact{
+  margin: 25px 0px;
+}
+
+.rule_space{
+  margin: 20px 0px;
+}
